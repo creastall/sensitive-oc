@@ -23,7 +23,7 @@
     [BadWord getInstance];
     NSDate *date1=[NSDate date];
     NSLog(@"data1 = %f",date1.timeIntervalSince1970);
-    [[BadWord getInstance] check:@"---犯罪--词--汇ggggr-犯    罪--词汇 ggggr-犯 罪--词汇ggggrcccccc犯罪--犯罪--词汇"];
+    [[BadWord getInstance] check:@"abcdeeddd"];
     NSDate *date2=[NSDate date];
     NSLog(@"data2 = %f",date2.timeIntervalSince1970);
 }
